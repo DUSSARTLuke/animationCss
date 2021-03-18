@@ -1,3 +1,7 @@
+body {
+  background: cyan;
+}
+
 .container {
   padding-top: 25px;
 }
@@ -16,6 +20,20 @@
   transform: scale(1.15);
   background: #011c37;
   color: #15dea5;
+}
+
+.form_group input {
+  border: 2px solid #fff;
+  border-radius: 100rem;
+  color: #6300a0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  outline: nine;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+}
+.form_group input:focus {
+  border: 2px solid #6300a0;
 }
 
 /*# sourceMappingURL=style.css.map */

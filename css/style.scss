@@ -1,12 +1,17 @@
 $cd-btn: #011c37;
-$cd-txt: #15dea5;
+$cd-txt-btn: #15dea5;
+$cd-txt-form: #6300a0;
+
+body{
+  background: cyan;
+}
 
 .container{
   padding-top: 25px;
 }
 .btn {
   background: $cd-btn;
-  color: $cd-txt;
+  color: $cd-txt-btn;
   font-size: 3rem;
   cursor: pointer;
   padding: 1.85rem 3 rem;
@@ -16,6 +21,24 @@ $cd-txt: #15dea5;
   &:hover{
     transform: scale(1.15);
     background: $cd-btn;
-    color: $cd-txt;
+    color: $cd-txt-btn;
+  }
+}
+
+.form{
+  &_group{
+    & input{
+      border: 2px solid #fff;
+      border-radius: 100rem;
+      color: $cd-txt-form;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      outline: nine;
+      padding: .5rem 1.5rem;
+      width: 100%;
+    &:focus{
+      border: 2px solid $cd-txt-form;
+      }
+    }
   }
 }
