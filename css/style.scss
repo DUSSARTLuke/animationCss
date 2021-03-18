@@ -1,0 +1,21 @@
+$cd-btn: #011c37;
+$cd-txt: #15dea5;
+
+.container{
+  padding-top: 25px;
+}
+.btn {
+  background: $cd-btn;
+  color: $cd-txt;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1.85rem 3 rem;
+  border-radius: 10rem;
+  transform: scale(1);
+  transition: transform 400ms;
+  &:hover{
+    transform: scale(1.15);
+    background: $cd-btn;
+    color: $cd-txt;
+  }
+}
