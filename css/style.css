@@ -79,4 +79,23 @@ body {
   background: #011c37;
 }
 
+.btn3 {
+  background: #011c37;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+}
+.btn3:hover + .box {
+  transform: translate(100px, 0);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #15dea5;
+  margin-bottom: 1rem;
+  transition: transform 330ms ease-in-out;
+}
+
 /*# sourceMappingURL=style.css.map */
