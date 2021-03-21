@@ -98,4 +98,33 @@ body {
   transition: transform 330ms ease-in-out;
 }
 
+.btn4 {
+  background: #011c37;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+}
+.btn4:hover + .box {
+  transform: scale(1);
+}
+.btn4:hover + .box span {
+  transform: translateY(0);
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: #15dea5;
+  margin-bottom: 1rem;
+  transform: sclae(0.1);
+  transition: transform 330ms ease-in-out;
+  overflow: hidden;
+}
+.box2 span {
+  display: inline-block;
+  transform: translateY(250%);
+  transition: transform 280ms esae-out 50ms;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -118,3 +118,37 @@ body{
   margin-bottom: 1rem;
   transition: transform 330ms ease-in-out;
 }
+
+.btn4{
+  background: $cd-btn;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+  // &:hover + .ball{
+  //   transform: scale(1.15);
+  // }
+  &:hover + .box{
+    transform: scale(1);
+    // transform: scaleX(2);
+    // transform: translate(100px, 0);
+    span{
+      transform: translateY(0);
+    }
+  }
+}
+
+.box2{
+  width: 100px;
+  height: 100px;
+  background: $cd-txt-btn;
+  margin-bottom: 1rem;
+  transform: sclae(0.1);
+  transition: transform 330ms ease-in-out;
+  overflow: hidden;
+  span {
+    display: inline-block;
+    transform: translateY(250%);
+    transition: transform 280ms esae-out 50ms;
+  }
+}
